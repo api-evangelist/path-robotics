@@ -1,0 +1,14 @@
+{
+  "repo": "path-robotics",
+  "feeds": [
+    {
+      "source": "https://www.path-robotics.com",
+      "feed_url": "https://www.path-robotics.com/news",
+      "title": "Path Robotics News",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-05T00:00:00Z"
+}

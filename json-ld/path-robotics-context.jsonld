@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "mfg": "https://w3id.org/manufacturing#",
+    "robot": "https://w3id.org/robotics#",
+
+    "PathRobotics": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "url": "schema:url",
+    "description": "schema:description",
+    "foundingDate": "schema:foundingDate",
+    "foundingLocation": "schema:foundingLocation",
+    "industry": "schema:industry",
+    "sameAs": "schema:sameAs",
+
+    "WeldingCell": {
+      "@id": "mfg:WeldingCell",
+      "@type": "@id"
+    },
+    "AutonomousWeldingSystem": {
+      "@id": "robot:AutonomousSystem",
+      "@type": "@id"
+    },
+    "Obsidian": {
+      "@id": "robot:PhysicalAIAgent",
+      "@type": "@id"
+    },
+    "WeldWorldModel": {
+      "@id": "robot:WorldModel",
+      "@type": "@id"
+    },
+    "Rove": {
+      "@id": "robot:MobileRobot",
+      "@type": "@id"
+    },
+
+    "physicalAIAgent": "robot:hasAIAgent",
+    "worldModel": "robot:hasWorldModel",
+    "sensorStack": "robot:hasSensorStack",
+    "reinforcementLearning": "robot:usesReinforcementLearning",
+    "weldDecision": "mfg:WeldDecision",
+    "seamDetection": "mfg:SeamDetection",
+    "firstPassYield": "mfg:firstPassYield",
+    "weldOutputModel": "mfg:consumableModel",
+    "deploymentModel": "mfg:DeploymentModel",
+
+    "Camera": {
+      "@id": "robot:Camera",
+      "@type": "@id"
+    },
+    "LaserSensor": {
+      "@id": "robot:LaserRangeSensor",
+      "@type": "@id"
+    },
+    "sensorCount": "robot:sensorCount",
+    "spatialResolution": "robot:spatialResolution",
+
+    "WeldIndustry": {
+      "@id": "mfg:WeldIndustry",
+      "@type": "@id"
+    },
+    "defenseShipbuilding": "mfg:defenseShipbuilding",
+    "energyInfrastructure": "mfg:energyInfrastructure",
+    "heavyIndustry": "mfg:heavyIndustry",
+    "dataCenter": "mfg:dataCenter",
+
+    "productivityGain": "mfg:productivityGain",
+    "costReduction": "mfg:costReduction",
+    "capitalExpenditure": "mfg:capitalExpenditure"
+  },
+  "@graph": [
+    {
+      "@type": "PathRobotics",
+      "name": "Path Robotics",
+      "url": "https://www.path-robotics.com",
+      "description": "AI-powered autonomous welding robotics company building intelligent welding cells for defense, energy, and heavy industry.",
+      "foundingDate": "2018",
+      "foundingLocation": "Columbus, Ohio",
+      "industry": "Industrial Robotics / Autonomous Welding",
+      "sameAs": [
+        "https://github.com/path-robotics",
+        "https://www.linkedin.com/company/path-robotics",
+        "https://www.crunchbase.com/organization/path-robotics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+vocabulary:
+  name: Path Robotics Industrial Welding Vocabulary
+  description: Key concepts and terms from the autonomous welding robotics domain as practiced by Path Robotics, covering physical AI, weld process automation, sensor fusion, and industrial deployment models.
+  version: "1.0.0"
+  terms:
+
+    - term: Obsidian
+      definition: Path Robotics' proprietary physical-AI reinforcement-learning agent trained inside the Weld World Model on tens of millions of welded inches. Obsidian runs at the edge of each welding cell and makes real-time, seam-by-seam welding decisions.
+      tags:
+        - physical-ai
+        - reinforcement-learning
+        - edge-computing
+        - weld-automation
+
+    - term: Weld World Model
+      definition: A proprietary simulation and training environment developed by Path Robotics in which the Obsidian AI agent is trained. The model encodes the physics, geometry, and material behavior of welded metal fabrication.
+      tags:
+        - world-model
+        - simulation
+        - ai-training
+        - weld-automation
+
+    - term: Autonomous Welding Cell
+      definition: A self-contained robotic work cell capable of identifying weld seams, planning torch paths, and executing welds without human programming for each part variant. Path Robotics deploys these cells at customer facilities under a consumption-based model.
+      tags:
+        - robotics
+        - welding
+        - manufacturing
+        - cell-automation
+
+    - term: Rove
+      definition: A mobile welding system from Path Robotics mounted on a quadruped robot platform, designed to extend autonomous welding capability to large or complex geometries that cannot be serviced by a fixed-cell installation.
+      tags:
+        - mobile-robotics
+        - quadruped
+        - welding
+        - physical-ai
+
+    - term: Seam Detection
+      definition: The process by which the sensor stack (cameras and lasers) on a Path Robotics welding cell identifies the precise location and geometry of a weld joint prior to and during welding. Sub-millimeter 360-degree awareness is achieved through two cameras and four lasers.
+      tags:
+        - computer-vision
+        - lidar
+        - seam-tracking
+        - sensor-fusion
+
+    - term: First-Pass Yield
+      definition: The percentage of welded parts that meet quality specifications without requiring rework after the first welding pass. Path Robotics reports 97%+ first-pass yield across customer deployments.
+      tags:
+        - quality
+        - manufacturing-kpi
+        - weld-quality
+
+    - term: Consumption Model
+      definition: Path Robotics' CapEx-free commercial deployment model in which customers pay based on welding output (weld-inches or similar consumption metric) rather than purchasing the capital equipment outright. Lowers the barrier to adopting autonomous welding.
+      tags:
+        - pricing-model
+        - capex-free
+        - deployment
+        - business-model
+
+    - term: Physical AI
+      definition: AI systems that perceive, reason about, and act within the physical world through direct sensor and actuator interfaces rather than purely in software or language domains. Path Robotics positions Obsidian as a physical-AI agent operating at the welding torch.
+      tags:
+        - ai
+        - embodied-ai
+        - robotics
+        - real-world-interaction
+
+    - term: Reinforcement Learning
+      definition: A machine-learning paradigm in which an agent learns optimal behavior through trial-and-error interaction with an environment by maximizing cumulative reward signals. Path Robotics uses RL to train Obsidian within the Weld World Model.
+      tags:
+        - machine-learning
+        - reinforcement-learning
+        - ai-training
+
+    - term: Sensor Fusion
+      definition: The combination of data streams from multiple heterogeneous sensors (cameras, lasers, etc.) to produce a unified, higher-fidelity model of the physical environment around the welding torch. Path Robotics uses two cameras and four lasers for sub-millimeter torch awareness.
+      tags:
+        - sensors
+        - computer-vision
+        - lidar
+        - perception
+
+    - term: Metal Fabrication Automation
+      definition: The application of robotic and AI systems to automate the cutting, forming, and joining (welding) of metal components in industrial manufacturing. Path Robotics focuses on the welding step, targeting defense shipyards, energy infrastructure, and heavy industry.
+      tags:
+        - manufacturing
+        - welding
+        - automation
+        - industrial-robotics
+
+    - term: Edge Inference
+      definition: Running AI model inference directly on compute hardware co-located with the physical process (the welding cell) rather than in a central cloud, enabling low-latency real-time decisions. Obsidian performs edge inference at each Path Robotics cell.
+      tags:
+        - edge-computing
+        - inference
+        - real-time
+        - ai-deployment
