@@ -61,6 +61,8 @@ x-tier: 3
 x-tier-reason: no-apis
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/path-robotics-domain-security.yml
   - type: Website
     url: https://www.path-robotics.com
   - type: About
