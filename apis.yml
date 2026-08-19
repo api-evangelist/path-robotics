@@ -67,7 +67,7 @@ tags:
 url: https://raw.githubusercontent.com/api-evangelist/path-robotics/refs/heads/main/apis.yml
 created: '2026-05-24'
 modified: '2026-05-24'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 x-tier: 3
 x-tier-reason: no-apis
 apis: []
