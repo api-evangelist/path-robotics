@@ -66,12 +66,12 @@ tags:
   - World Models
   - Obsidian
   - Weld World Model
-  - Computer-Vision
+  - Computer Vision
   - LiDAR
   - Defense
   - Shipbuilding
   - Energy Infrastructure
-  - Data-Center
+  - Data Center
   - Heavy Industry
   - Hardware
   - Columbus Ohio
@@ -96,6 +96,8 @@ tags_raw:
   - Heavy Industry
   - Hardware
   - Columbus Ohio
+  - Computer-Vision
+  - Data-Center
 url: https://raw.githubusercontent.com/api-evangelist/path-robotics/refs/heads/main/apis.yml
 created: '2026-05-24'
 modified: '2026-05-24'
