@@ -64,104 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Path Robotics is a **Columbus, Ohio** autonomous welding robotics company
-founded in 2018 by brothers **Andy Lonsberry** (CEO) and **Alex Lonsberry**
-(CTO) out of Case Western Reserve University. Path builds AI-powered
-**intelligent welding cells** that automate metal fabrication for defense
-shipyards, utility and energy infrastructure, data centers, and heavy
-industry.
+Path Robotics is a Columbus, Ohio autonomous welding robotics company founded in 2018 by brothers Andy and Alex Lonsberry (CEO and CTO) out of Case Western Reserve University. The company builds AI-powered intelligent welding cells that automate metal fabrication for defense shipyards, utility and energy infrastructure, data centers, and heavy industry. Its core technology is Obsidian, a physical-AI reinforcement-learning agent trained inside Path's proprietary Weld World Model on tens of millions of welded inches; Obsidian runs at the edge of each cell and makes real-time, seam-by-seam welding decisions using a sensor stack of two cameras plus four lasers that deliver sub-millimeter 360-degree awareness around the torch. Path markets the cells with a CapEx-free consumption model and reports 97%+ first-pass yield, 4x productivity, and 30% lower welding costs across customers including HII (America's largest military shipbuilder), Saronic, LAD Services, Tycrop, Mine Rite Technologies, and Millerbernd. In April 2026 Path announced Rove, a mobile welding system mounted on a quadruped platform, extending its addressable geometry beyond fixed-cell applications. The company has raised approximately $271M across Seed through Series D from Drive Capital, Matter Venture Partners, Tiger Global, Addition, and Yamaha Motor Ventures, with the most recent $100M Series D closing in October 2024. Path Robotics has no public developer API, SDK, or webhook surface; its GitHub organization contains roughly 50 repositories that are almost entirely upstream open-source forks (ROS, protobuf, abseil, ceres-solver, pytorch3d, etc.) used as internal build dependencies rather than published developer artifacts. Revenue is earned through welding-cell deployments, services, and the consumable weld-output model — not API monetization.
 
-> "AI-powered welding that adapts in real time — seam by seam, just like a
-> human would."
-> — path-robotics.com/obsidian
+**Areas:** Robotics · Welding · Autonomous Welding · Industrial Robotics · Manufacturing · Physical AI · Embodied AI · Reinforcement Learning · World Models · Obsidian · Weld World Model · Computer Vision
 
-## Products & Technology
+## Path Robotics on APIs.io
 
-| Product / Tech | What it is |
-| --- | --- |
-| **Obsidian** | Physical-AI reinforcement-learning agent trained inside Path's proprietary Weld World Model on tens of millions of welded inches. Runs at the edge of each cell. |
-| **Weld World Model** | Proprietary simulator/world model that captures pre-, during-, and post-weld data; feeds back into Obsidian training. |
-| **Intelligent Welding Cells** | Fully autonomous welding cells sold on a consumption / CapEx-free model. Claimed 4x productivity, 30% lower cost, 97%+ first-pass yield. |
-| **Rove** *(April 2026)* | Mobile welding system mounted on a quadruped platform; extends Path beyond fixed-cell applications. |
-| **Sensor Stack** | 2 cameras + 4 lasers delivering 360-degree sub-millimeter awareness around the torch; neural-network filtering removes false reflections in real time. |
+Everything profiled for Path Robotics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/path-robotics/](https://apis.io/providers/path-robotics/)** — or go straight to one of the APIs or properties below.
 
-## Markets
+### Published properties
 
-- Defense (shipyards, military manufacturing)
-- Utility & energy infrastructure
-- Data centers
-- Heavy industry / large fabrications
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Notable customers and announced deployments include **HII** (America's
-largest military shipbuilder), **Saronic**, **LAD Services**, **Tycrop**,
-**Mine Rite Technologies**, and **Millerbernd**.
+#### JSON-LD (1)
 
-## Leadership
+Linked-data contexts for the provider's vocabulary.
 
-- **Andy Lonsberry** — CEO, Co-Founder
-- **Alex Lonsberry** — CTO, Co-Founder
-- **Frank Klein** — Board member (Rocket Lab COO)
-- **Geoffrey Chatas** — Board member (Yale University CFO)
-- **Heather Carroll** — Chief Revenue Officer
-- **Joe Onderko** — Chief Evangelist
-- **Mike Renn** — EVP, Global Operations
-- **Andrew Lein** — VP of Product
-- **Matthew Randle** — CISO & VP of Product Reliability Engineering
+- [Path Robotics Context](https://apis.io/jsonld/path-robotics/path-robotics-context/)
 
-## Funding
+#### Vocabulary (1)
 
-| Round | Date | Amount | Notes |
-| --- | --- | --- | --- |
-| Series C | 2021 | $100M | Reported by Robotics 24/7 |
-| Series D | Oct 2024 | $100M | Led by Matter Venture Partners and Drive Capital |
-| **Total raised** | | **≈$271M** | Investors include Drive Capital, Matter Venture Partners, Tiger Global, Addition, Yamaha Motor Ventures |
+The provider's domain terms, defined.
 
-Headcount as of Q1 2026: ~198 employees.
+- [Path Robotics Industrial Welding Vocabulary](https://apis.io/vocabularies/path-robotics/path-robotics-vocabulary/)
 
-## Developer / API Surface
+#### Security (1)
 
-| Surface | Status |
-| --- | --- |
-| Public REST/GraphQL API | None |
-| Developer portal | None |
-| OpenAPI / AsyncAPI / Postman | None |
-| Public SDKs / CLIs | None |
-| Webhooks / Events | None |
-| Public GitHub organization | [github.com/path-robotics](https://github.com/path-robotics) — 50 public repos, **almost entirely upstream open-source forks** (ROS, protobuf, abseil, ceres-solver, pytorch3d, gRPC, OpenTelemetry C++, tensorflow, fmt, mimalloc, etc.) used as internal build dependencies. No published developer artifacts, no documented external API surface. |
-| RSS / Changelog | None public |
-| Status page | None public |
+Authentication, trust centre, and vulnerability disclosure.
 
-Path Robotics' commercial surface is **physical welding cells sold on a
-consumption / per-weld basis**, not a developer API. Obsidian is a
-closed, proprietary on-device model; the Weld World Model is internal
-training infrastructure. This repo is profiled **for portfolio and
-landscape completeness** — to anchor the autonomous-welding and
-physical-AI segment of the API Evangelist network alongside Figure
-Robotics, Agility Robotics, Boston Dynamics, and other embodied-AI
-players where Naftiko's governed-AI thesis intersects with industrial
-deployment.
+- [Path Robotics Domain Security](https://apis.io/security/path-robotics/path-robotics-domain-security/)
 
-## Key Links
+## Where to find this API
 
-- Website: <https://www.path-robotics.com>
-- About: <https://www.path-robotics.com/about>
-- Obsidian: <https://www.path-robotics.com/obsidian>
-- Demo / Contact: <https://www.path-robotics.com/demo>
-- News: <https://www.path-robotics.com/news>
-- Careers: <https://www.path-robotics.com/careers>
-- GitHub: <https://github.com/path-robotics>
-- LinkedIn: <https://www.linkedin.com/company/path-robotics>
-- Crunchbase: <https://www.crunchbase.com/organization/path-robotics>
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Pipeline Run
+- [Website](https://www.path-robotics.com)
 
-- **x-type**: company
-- **x-tier**: 3 (no-apis)
-- **Profiled**: 2026-05
-- **Artifacts**: `apis.yml`, `README.md` only — no OpenAPI / AsyncAPI /
-  JSON Schema / capabilities generated because no public API surface
-  exists to model. The GitHub org was reviewed; no first-party Path
-  Robotics SDK, CLI, or spec was identified — only upstream OSS forks.
+## API Evangelist rating
 
----
-Maintained by [Kin Lane](https://apievangelist.com), API Evangelist.
+**Kin Score 7.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/path-robotics/](https://apis.io/providers/path-robotics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Path Robotics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/path-robotics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
